@@ -11,8 +11,8 @@ import {
 </script>
 <template>
   <guide/>
-  <div class="abs top:100 w:100% flex justify-content:center color:white">
-    <div class="p:50px text:center">
+  <div class="abs top:100 w:100% flex@>md justify-content:center color:white">
+    <div class="p:50px text:center inline-block@<md">
       <h3>前端語言及框架</h3>
       <div class="rel f:25 h:350px w:250px r:10px bg:gray-20 shadow:4|6|crimson-58:hover ~300ms|ease-in">
           <ul class="rel top:10% list-style:none">
@@ -26,7 +26,7 @@ import {
           </ul>
       </div>
     </div>
-    <div class="p:50px text:center">
+    <div class="p:50px text:center inline-block@<md">
       <h3>後端語言及框架</h3>
       <div class="rel f:25 h:350px w:250px r:10px bg:gray-20 shadow:4|6|crimson-58:hover ~300ms|ease-in">
             <ul class="rel top:10% list-style:none">
@@ -38,7 +38,7 @@ import {
             </ul>
       </div>
     </div>
-    <div class="p:50px text:center">
+    <div class="p:50px text:center inline-block@<md">
       <h3>資料庫</h3>
       <div class="rel f:25 h:350px w:250px r:10px bg:gray-20 shadow:4|6|crimson-58:hover ~300ms|ease-in">
         <ul class="rel top:10% list-style:none">

@@ -21,7 +21,7 @@ watch(focused, (isFocused) => {
   <guide/>
   <section class="rel w:100% top:100 color:white">
   <div class="rel flex align-items:center justify-content:center">
-    <div class="rel right:50px flex">
+    <div class="rel right:50px@>sm flex@>sm inline-block@<sm">
       <IconBrandDiscord :size="40"/><h1>我的Discord</h1>
     </div>
     <iframe class="h:200px w:400px r:10px shadow:6|4|crimson-58:hover ~300ms|ease-in" src="https://lanyard.cnrad.dev/api/503043347246743567?idleMessage=I%20hate%20my%20life%20"></iframe>

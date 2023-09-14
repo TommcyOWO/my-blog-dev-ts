@@ -2,7 +2,7 @@
 import { useTitle, useWindowFocus } from '@vueuse/core';
 import { watch } from 'vue';
 import '@master/css';
-import { IconBrandDiscord,IconBrandX,IconBrandGithub } from '@tabler/icons-vue'
+import { IconBrandDiscord,IconBrandX,IconBrandGithub } from '@tabler/icons-vue';
 
 import guide from '@/components/guide.vue';
 

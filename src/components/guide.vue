@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import {ref} from 'vue';
-import {useRouter,useRoute} from 'vue-router';
+import { useRouter,useRoute } from 'vue-router';
 import {init, Style } from'@master/css';
 
 Style.extend('classes', {

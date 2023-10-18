@@ -1,10 +1,10 @@
 <template>
-  <div>
+  <div class="bg:gray-16@dark">
 
   </div>
 </template>
 
-<script setup lang="ts">
+<script setup>
 
 </script>
 

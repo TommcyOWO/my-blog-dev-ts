@@ -15,7 +15,7 @@ export default defineI18nConfig(()=>({
       index:'首頁',
       about:'關於我',
       overview_development:'開發介紹',
-      work:'作品',
+      work:'作品集',
       username:'使用者名稱',
       password:'使用者密碼',
       welcom:"歡迎來到Tomycat 的部落格"

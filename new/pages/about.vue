@@ -2,15 +2,15 @@
     <section class="rel w:100% top:20vh color:white">
     <div class="rel flex align-items:center justify-content:center">
       <div class="rel right:50px@>sm flex@>sm inline-block@<sm">
-        <IconBrandDiscord :size="40"/><h1>我的Discord</h1>
+        <IconBrandDiscordFilled :size="40" class="mr:10px"/><h1>我的Discord</h1>
       </div>
       <iframe class="h:200px w:400px r:10px shadow:6|4|crimson-58:hover ~300ms|ease-in" src="https://lanyard.cnrad.dev/api/503043347246743567?idleMessage=I%20hate%20my%20life%20"></iframe>
     </div>
-    <div class="rel flex align-items:center justify-content:center w:100% p:20">
-      <IconBrandX :size="40"/><h1>我的 X (twitter)</h1> <a class="rel color:white left:10px" href="https://twitter.com/TommcyOWO">@TommcyOWO</a>
+    <div class="rel flex align-items:center justify-content:center mt:50px w:100% p:20">
+      <IconBrandX :size="40" class="mr:10px"/><h1>我的 X (twitter)</h1> <a class="rel color:white left:10px" href="https://twitter.com/TommcyOWO">@TommcyOWO</a>
     </div>
     <div class="rel flex align-items:center justify-content:center w:100% p:20">
-      <IconBrandGithub :size="40"/><h1>我的github</h1> <a class="rel color:white left:10px" href="https://github.com/TommcyOWO">@TommcyOWO</a>
+      <IconBrandGithub :size="40" class="mr:10px"/><h1>我的github</h1> <a class="rel color:white left:10px" href="https://github.com/TommcyOWO">@TommcyOWO</a>
     </div>
     </section>
     <section class="rel w:100% top:25vh color:white">
@@ -28,7 +28,7 @@
 
 
 <script setup lang="ts">
-import { IconBrandDiscord, IconBrandX, IconBrandGithub } from '@tabler/icons-vue';
+import { IconBrandDiscordFilled, IconBrandX, IconBrandGithub } from '@tabler/icons-vue';
 import { useTitle } from '@vueuse/core';
 
 const { locale } = useI18n()

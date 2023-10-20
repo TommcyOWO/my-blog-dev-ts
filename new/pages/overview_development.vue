@@ -1,11 +1,48 @@
 <template>
-  <div class="bg:gray-16">
-
-  </div>
+  <div class="abs top:20vh w:100% text:center f:20 color:white flex@>md jc:center@>md">
+    <section class="inline-block px:10">
+      <h2>前端框架</h2>
+      <div class="h:400px w:300px bg:gray-20 r:10 shadow:4|6|crimson-58:hover ~300ms|ease-in">
+        <ul class="list-style:none p:30px">
+          <li class="m:5px flex jc:center"><IconBrandVue/>Vue</li>
+          <li class="m:5px flex jc:center"><IconBrandNuxt/>Nuxt</li>
+          <li class="m:5px flex jc:center"><IconBrandJavascript/>Javascript</li>
+          <li class="m:5px flex jc:center"><IconBrandTypescript/>Typescript</li>
+          <li class="m:5px flex jc:center"><IconBrandReact/>React、ReactNative</li>
+        </ul>
+      </div>
+    </section>
+    <section class="inline-block px:10">
+      <h2>後端框架</h2>
+      <div class="h:400px w:300px bg:gray-20 r:10 shadow:4|6|crimson-58:hover ~300ms|ease-in">
+        <ul class="list-style:none p:30px">
+          <li class="p:5px"><img src="@/assets/fastapi.svg" class="rel h:20px w:20px right:10px">FastAPI</li>
+          <li class="p:5px"><img src="@/assets/flask.svg" class="rel h:25px w:25px right:10px"/>Flask</li>
+          <li class="p:5px"><IconBrandTypescript class="rel right:10px"/>Typescript</li>
+          <li class="p:5px"><IconBrandNodejs class="rel right:10px"/>Node.js</li>
+          <li class="p:5px"><IconBrandPython class="rel right:10px"/>Python</li>
+        </ul>
+      </div>
+    </section>
+    <section class="inline-block px:10">
+      <h2>資料庫</h2>
+      <div class="h:400px w:300px bg:gray-20 r:10 shadow:4|6|crimson-58:hover ~300ms|ease-in">
+          <ul class="list-style:none p:30px">
+            <li class="m:5px"><IconBrandMysql/>MySQL</li>
+            <li class="m:5px"><IconBrandMongodb/>MongoDB</li>
+          </ul>
+      </div>
+    </section>
+</div>
 </template>
 
 <script setup lang="ts">
-
+import {
+  IconBrandVue, IconBrandReact,IconBrandNuxt, IconBrandHtml5, IconBrandCss3,
+  IconBrandJavascript, IconBrandTypescript,
+  IconBrandNodejs, IconBrandPython,
+  IconBrandMysql, IconBrandMongodb, IconBrandFirebase
+} from '@tabler/icons-vue';
 </script>
 
 <style scoped>

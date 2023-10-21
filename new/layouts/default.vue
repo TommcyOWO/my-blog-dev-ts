@@ -22,7 +22,7 @@
 import '@master/css';
 import { IconBrandGithub,IconMenu2 } from '@tabler/icons-vue';
 
-const routes = ref(['about','overview_development','work'])
+const routes = ref(['about','overview_development','works'])
 const { locale } = useI18n();
 const router = useRouter();
 const moveTo = (path:string) => router.push({ name: path });

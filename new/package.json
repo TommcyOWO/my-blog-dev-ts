@@ -21,6 +21,8 @@
     "@nuxtjs/i18n": "^8.0.0-rc.5",
     "@tabler/icons-vue": "^2.39.0",
     "@vueuse/core": "^10.5.0",
-    "@vueuse/nuxt": "^10.5.0"
+    "@vueuse/nuxt": "^10.5.0",
+    "axios": "^1.5.1",
+    "kute.js": "^2.2.4"
   }
 }

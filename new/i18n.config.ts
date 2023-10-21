@@ -9,7 +9,10 @@ export default defineI18nConfig(()=>({
       work:'Works',
       username:'Username',
       password:'Password',
-      welcom:"Welcom ~!Here is Tomycat's blog"
+      welcom:"Welcom ~!Here is Tomycat's blog",
+      frontend:'Frontend',
+      backend:'Backend',
+      database:'Database'
     },
     taiwan_ch: {
       index:'首頁',
@@ -18,7 +21,10 @@ export default defineI18nConfig(()=>({
       work:'作品集',
       username:'使用者名稱',
       password:'使用者密碼',
-      welcom:"歡迎來到Tomycat 的部落格"
+      welcom:"歡迎來到Tomycat 的部落格",
+      frontend:'前端框架',
+      backend:'後端框架',
+      database:'資料庫'
     }
   }
 }))

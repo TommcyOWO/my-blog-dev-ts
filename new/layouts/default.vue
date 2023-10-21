@@ -3,7 +3,8 @@
       <div>
         <IconMenu2 color="white" class="hidden@>md m:20px cursor:pointer"/>
         <ul class="list-style:none flex@>md f:20px color:gray-80">
-          <li v-for="route in routes" @click="moveTo(route)" class="m:20px ~300ms|ease-in color:crimson-54:hover cursor:pointer">{{ $t(route) }}</li>
+          <li @click="moveTo('index')" :class="{ 'color:crimson-54': $route.path === '/' }" class="m:20px ~300ms|ease-in color:crimson-54:hover cursor:pointer">{{ $t('index') }}</li>
+          <li v-for="route in routes" @click="moveTo(route)" :class="{'color:crimson-54': $route.path === '/'+route}" class="m:20px ~300ms|ease-in color:crimson-54:hover cursor:pointer">{{ $t(route) }}</li>
         </ul>
       </div>
     <div class="flex ai:center@>md m:10px top:10px@<md rel@<md">
@@ -21,10 +22,8 @@
 import '@master/css';
 import { IconBrandGithub,IconMenu2 } from '@tabler/icons-vue';
 
-const routes = ref(['index','about','overview_development','work'])
-
+const routes = ref(['about','overview_development','work'])
 const { locale } = useI18n();
-
 const router = useRouter();
 const moveTo = (path:string) => router.push({ name: path });
 

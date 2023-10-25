@@ -5,8 +5,8 @@
       <iframe class="h:30vh w:100vw@<xs w:400@>xs r:10px shadow:6|4|crimson-58:hover ~300ms|ease-in" src="https://lanyard.cnrad.dev/api/503043347246743567?idleMessage=I%20hate%20my%20life%20"/>
     </section>
     <section class="p:20px">
-      <h1 class="color:white p:25px"><IconBrandX/> My X (twitter) <a href="" target="_blank" class="color:white f:18">@TommcyOWO</a></h1>
-      <h1 class="color:white p:25px"><IconBrandGithub/> My Github <a href="" target="_blank" class="color:white f:18">@TommcyOWO</a></h1>
+      <h1 class="color:white p:25px"><IconBrandX/> My X (twitter) <a href="https://twitter.com/TommcyOWO" target="_blank" class="color:white f:18">@TommcyOWO</a></h1>
+      <h1 class="color:white p:25px"><IconBrandGithub/> My Github <a href="https://github.com/tommcyOWO/" target="_blank" class="color:white f:18">@TommcyOWO</a></h1>
     </section>
     <section class="color:white p:20px">
       <div class="rel block text:center">

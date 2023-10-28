@@ -8,6 +8,7 @@
           <li class="p:5px flex jc:center"><IconBrandNuxt class="rel right:10px"/>Nuxt</li>
           <li class="p:5px flex jc:center"><IconBrandJavascript class="rel right:10px"/>Javascript</li>
           <li class="p:5px flex jc:center"><IconBrandTypescript class="rel right:10px"/>Typescript</li>
+          <li class="p:5px"><img src="@/assets/nextjs.svg" class="rel h:20px w:20px right:10px">Next.js</li>
           <li class="p:5px flex jc:center"><IconBrandReact class="rel right:10px"/>React、ReactNative</li>
         </ul>
       </div>

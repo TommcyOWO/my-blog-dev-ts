@@ -1,4 +1,4 @@
-export const local = {
+export default {
   index: 'Home',
   about:'About me',
   overview_development:'Overview development',

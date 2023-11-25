@@ -5,6 +5,7 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
+    "LAN_dev": "nuxt dev --host 0.0.0.0",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
@@ -19,6 +20,7 @@
   "dependencies": {
     "@master/css": "^1.37.8",
     "@nuxtjs/i18n": "^8.0.0-rc.5",
+    "@octokit/rest": "^20.0.2",
     "@tabler/icons-vue": "^2.39.0",
     "@vueuse/core": "^10.5.0",
     "@vueuse/nuxt": "^10.5.0",

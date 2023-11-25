@@ -1,4 +1,4 @@
-export const local = {
+export default {
   index:'首頁',
   about:'關於我',
   overview_development:'開發介紹',
